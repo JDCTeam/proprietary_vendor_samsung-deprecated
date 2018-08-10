@@ -149,7 +149,7 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/jf-common/proprietary/vendor/lib/libOmxWmaDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxWmaDec.so \
 	vendor/samsung/jf-common/proprietary/vendor/lib/libsam.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsam.so \
 	vendor/samsung/jf-common/proprietary/vendor/lib/libsensirion_j1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensirion_j1.so \
-	vendor/samsung/jf-common/proprietary/vendor/lib/hw/sensors.msm8960.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.msm8960.so \
+	vendor/samsung/jf-common/proprietary/vendor/lib/sensors.msm8960.so:system/vendor/lib/sensors.vendor.msm8960.so \
 	vendor/samsung/jf-common/proprietary/vendor/lib/hw/sensorhubs.msm8960.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensorhubs.msm8960.so \
 	vendor/samsung/jf-common/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
 	vendor/samsung/jf-common/proprietary/etc/wifi/bcmdhd_ibss.bin:system/etc/wifi/bcmdhd_ibss.bin \
