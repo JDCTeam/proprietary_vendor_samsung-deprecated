@@ -28,7 +28,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/jf-common/proprietary/vendor/lib/librs_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/librs_adreno.so \
 	vendor/samsung/jf-common/proprietary/vendor/lib/librs_adreno_sha1.so:$(TARGET_COPY_OUT_VENDOR)/lib/librs_adreno_sha1.so \
 	vendor/samsung/jf-common/proprietary/vendor/lib/libsc-a3xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsc-a3xx.so \
-        vendor/samsung/jf-common/proprietary/vendor/lib/libstlport.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstlport.so \
+    vendor/samsung/jf-common/proprietary/vendor/lib/libstlport.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstlport.so \
 	vendor/samsung/jf-common/proprietary/vendor/lib/libscale.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscale.so \
 	vendor/samsung/jf-common/proprietary/vendor/lib/libuiblur.so:$(TARGET_COPY_OUT_VENDOR)/lib/libuiblur.so \
 	vendor/samsung/jf-common/proprietary/vendor/firmware/bcm4335_V0343.0353.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4335.hcd \
@@ -120,9 +120,9 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/jf-common/proprietary/vendor/lib/libmmstillomx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmstillomx.so \
 	vendor/samsung/jf-common/proprietary/vendor/lib/liboemcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcamera.so \
 	vendor/samsung/jf-common/proprietary/vendor/lib/libvdis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvdis.so \
-	vendor/samsung/jf-common/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
-	vendor/samsung/jf-common/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
-	vendor/samsung/jf-common/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
+	vendor/samsung/jf-common/proprietary/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
+	vendor/samsung/jf-common/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw \
+	vendor/samsung/jf-common/proprietary/vendor/firmware/vidc_1080p.fw:system/vendor/firmware/vidc_1080p.fw \
 	vendor/samsung/jf-common/proprietary/vendor/lib/libgeofence.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgeofence.so \
 	vendor/samsung/jf-common/proprietary/vendor/lib/libizat_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libizat_core.so \
 	vendor/samsung/jf-common/proprietary/vendor/lib/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgsl.so \
