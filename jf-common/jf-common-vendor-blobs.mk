@@ -17,6 +17,8 @@
 
 ## jf-common/common-proprietary-files.txt
 PRODUCT_COPY_FILES += \
+	vendor/samsung/jf-common/proprietary/libQmageDecoder.so:/system/lib/libQmageDecoder.so \
+	vendor/samsung/jf-common/proprietary/lpm:/system/bin/lpm \
     vendor/samsung/jf-common/proprietary/vendor/bin/mpdecision:$(TARGET_COPY_OUT_VENDOR)/bin/mpdecision \
     vendor/samsung/jf-common/proprietary/vendor/bin/netmgrd:$(TARGET_COPY_OUT_VENDOR)/bin/netmgrd \
     vendor/samsung/jf-common/proprietary/vendor/bin/qmuxd:$(TARGET_COPY_OUT_VENDOR)/bin/qmuxd \
