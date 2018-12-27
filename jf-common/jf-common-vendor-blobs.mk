@@ -17,6 +17,8 @@
 
 ## jf-common/common-proprietary-files.txt
 PRODUCT_COPY_FILES += \
+	vendor/samsung/jf-common/proprietary/vendor/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
+    vendor/samsung/jf-common/proprietary/vendor/lib/hw/camera.msm8960.so:system/vendor/lib/hw/camera.msm8960.so \
     vendor/samsung/jf-common/proprietary/vendor/bin/mpdecision:$(TARGET_COPY_OUT_VENDOR)/bin/mpdecision \
     vendor/samsung/jf-common/proprietary/vendor/bin/netmgrd:$(TARGET_COPY_OUT_VENDOR)/bin/netmgrd \
     vendor/samsung/jf-common/proprietary/vendor/bin/qmuxd:$(TARGET_COPY_OUT_VENDOR)/bin/qmuxd \
@@ -56,7 +58,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/jf-common/proprietary/cameradata/RS_M10MO_OS.bin:system/cameradata/RS_M10MO_OS.bin \
     vendor/samsung/jf-common/proprietary/cameradata/RS_M10MO_SL.bin:system/cameradata/RS_M10MO_SL.bin \
     vendor/samsung/jf-common/proprietary/cameradata/RS_M10MO_SS.bin:system/cameradata/RS_M10MO_SS.bin \
-    vendor/samsung/jf-common/proprietary/vendor/lib/hw/camera.vendor.msm8960.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.vendor.msm8960.so \
     vendor/samsung/jf-common/proprietary/vendor/lib/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsprpc.so \
     vendor/samsung/jf-common/proprietary/vendor/lib/libchromatix_imx074_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx074_default_video.so \
     vendor/samsung/jf-common/proprietary/vendor/lib/libchromatix_imx074_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx074_preview.so \
