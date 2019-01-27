@@ -30,7 +30,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/jf-common/proprietary/vendor/lib/librs_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/librs_adreno.so \
     vendor/samsung/jf-common/proprietary/vendor/lib/librs_adreno_sha1.so:$(TARGET_COPY_OUT_VENDOR)/lib/librs_adreno_sha1.so \
     vendor/samsung/jf-common/proprietary/vendor/lib/libsc-a3xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsc-a3xx.so \
-    vendor/samsung/jf-common/proprietary/vendor/firmware/bcm4335_V0343.0353.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4335.hcd \
+    vendor/samsung/jf-common/proprietary/vendor/firmware/BCM4335B0_002.001.006.0191.0201_ORC.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/BCM4335B0_002.001.006.0191.0201_ORC.hcd \
     vendor/samsung/jf-common/proprietary/vendor/lib/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbloader.so \
     vendor/samsung/jf-common/proprietary/vendor/lib/libcsd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcsd-client.so \
     vendor/samsung/jf-common/proprietary/vendor/lib/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxml.so \
